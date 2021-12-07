@@ -22,6 +22,6 @@ fn main() {
     let mut bits_copy = vector_of_bits_ref.clone();
     let oxy_number = calculate(bitwidth, bits_copy, true);
     bits_copy = vector_of_bits_ref.clone();
-    let co2_number = calculate(bitwidth, bits_copy, true);
+    let co2_number = calculate(bitwidth, bits_copy, false);
     println!("prod {:?}", oxy_number * co2_number);
 }
